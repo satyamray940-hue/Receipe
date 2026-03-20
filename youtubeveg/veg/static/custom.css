@@ -1,0 +1,77 @@
+body {
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container, .card {
+    background: transparent !important;
+    border-radius: 12px;
+    box-shadow: none !important;
+}
+
+form, table, .alert, .btn, input, textarea, select {
+    background: rgba(0,0,0,0.45) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+input, textarea, select {
+    background: rgba(0,0,0,0.35) !important;
+    color: #fff !important;
+}
+
+th, td {
+    background: rgba(0,0,0,0.35) !important;
+    color: #fff !important;
+}
+
+a, .btn-link, .btn {
+    color: #fff !important;
+    text-shadow: 0 1px 2px #000;
+}
+
+.form-label, label {
+    color: #fff !important;
+    text-shadow: 0 1px 2px #000;
+}
+
+.form-card{
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color: white;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #ddd;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #ff6b6b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ff4b4b;
+}
